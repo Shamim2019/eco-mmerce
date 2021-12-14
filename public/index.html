@@ -24,23 +24,22 @@
         </button>
         <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
           <li><a class="dropdown-item active" href="#">Home</a></li>
-          <li><a class="dropdown-item" href="#">About us</a></li>
+          <li><a class="dropdown-item" href="aboutus.html">About us</a></li>
           <li><a class="dropdown-item" href="#">Services</a></li>
           <li><hr class="dropdown-divider"></li>
           <li><a class="dropdown-item" href="#">contacts</a></li>
+          <li><a class="dropdown-item" href="order">Order</a></li>
         </ul>
       </div>
     
     <h1>Ecomart shopping</h1>
-    <p>Welcome all to shop online and get your goods delivered at your place</p>
-    <p>We serve world wide</p>
+    <p>Welcome all to online shopping  and your goods will be  delivered at your place</p>
+    <p>We serve world wide KENYA our home!!!!.</p>
     <div id="container">
       <img src="./img 1.jpeg" alt="">
       <img src="./img4.jpeg" alt="">
     </div>
-      <div class="forms">
-
-      </div>
+   
       <h5 class="text-center pt-4 font-weight-bold text-xl">Our Products</h5>
       <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -58,6 +57,22 @@
           </div>
         </div>
       </div>
+     <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form> 
       <form class="row g-3">
         <div class="col-md-6">
           <label for="inputEmail4" class="form-label">Email</label>
@@ -82,8 +97,12 @@
         <div class="col-md-4">
           <label for="inputState" class="form-label">State</label>
           <select id="inputState" class="form-select">
-            <option selected>Choose...</option>
-            <option>...</option>
+            <option selected>Choose ...</option>
+            <option value="cbd">CBD</option>
+            <option value="juja">Juja</option>
+            <option value="embakasi">Embakasi</option>
+            <option value="kilimani">Kilimani</option>
+            <option value="others">Others</option>
           </select>
         </div>
         <div class="col-md-2">
@@ -119,10 +138,7 @@
         <button type="submit" class="btn btn-primary">Submit</button>
       </form> -->
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root">
-     
-
-    </div>
+    <div id="root"></div>
    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
   <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
 
